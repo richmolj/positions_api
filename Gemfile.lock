@@ -103,11 +103,11 @@ GEM
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
     faraday-net_http (1.0.1)
-    ffi (1.14.2)
+    ffi (1.15.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    google-protobuf (3.15.2-universal-darwin)
-    graphiti (1.2.32)
+    google-protobuf (3.15.5)
+    graphiti (1.2.33)
       activesupport (>= 4.1)
       concurrent-ruby (~> 1.0)
       dry-types (>= 0.15.0, < 2.0)
@@ -120,8 +120,9 @@ GEM
       rescue_registry (~> 0.2.1)
     graphiti_errors (1.1.2)
       jsonapi-serializable (~> 0.1)
-    graphiti_graphql (0.1.0)
+    graphiti_graphql (0.1.2)
       activesupport (>= 4.1)
+      graphiti (>= 1.2.33)
       graphql (~> 1.12)
     graphiti_spec_helpers (1.0.5)
       graphiti (>= 1.0.alpha.1)
@@ -164,7 +165,7 @@ GEM
     minitest (5.14.4)
     msgpack (1.4.2)
     multipart-post (2.1.1)
-    nio4r (2.5.5)
+    nio4r (2.5.7)
     nokogiri (1.11.1)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
@@ -175,7 +176,7 @@ GEM
     pry-byebug (3.9.0)
       byebug (~> 11.0)
       pry (~> 0.13.0)
-    puma (5.2.1)
+    puma (5.2.2)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
@@ -267,7 +268,7 @@ DEPENDENCIES
   factory_bot_rails (~> 5.0)
   faker (~> 2.5)
   faraday
-  graphiti (= 1.2.32)
+  graphiti (= 1.2.33)
   graphiti-rails
   graphiti_graphql
   graphiti_spec_helpers

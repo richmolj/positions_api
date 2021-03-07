@@ -55,8 +55,8 @@ group :test do
 end
 
 gem "faraday"
-gem 'graphiti', "1.2.32"
-gem "graphiti_graphql"
+gem 'graphiti', "1.2.33"
+gem "graphiti_graphql", require: "graphiti_graphql/federation"
 gem "apollo-federation"
 gem "graphql-batch"
 gem "pry"
